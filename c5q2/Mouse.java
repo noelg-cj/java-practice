@@ -12,11 +12,11 @@ public class Mouse {
             frame.add(panel);
             frame.setVisible(true);
 
-            // Add a custom mouse listener to the panel
             panel.addMouseListener(new CustomMouseListener());
         });
     }
 }
+
 
 class CustomMouseListener implements MouseListener {
     @Override
